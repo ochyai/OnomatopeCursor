@@ -17,4 +17,5 @@ preferred-citation:
     - family-names: Okamura
       given-names: Miki
   year: 2026
-  # TODO: arXiv公開後にIDとDOIを記入（例: arXiv:2607.XXXXX / 10.48550/arXiv.2607.XXXXX）
+  doi: 10.5281/zenodo.21712979
+  # TODO: arXiv公開後にarXiv IDも追記
