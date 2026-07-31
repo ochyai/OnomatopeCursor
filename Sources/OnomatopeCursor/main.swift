@@ -2,8 +2,10 @@
 // 運動語15 + 文脈語3（背景モード・Accessibility権限が必要）。
 // 特徴量トラッカー・分類器・研究ログは OnomatopeCore（テスト対象）に分離。
 // 描画: グリフをCGPath化し輪郭を手描き風に揺らした3バリアントを8fpsで切替（ボイルアニメ）
+import Carbon.HIToolbox
 import Cocoa
 import ApplicationServices
+import IOKit.hid
 import OnomatopeCore
 
 // バンドルのInfo.plist（build.shがVERSIONから埋める）を正とする。swift run時は"dev"
@@ -950,6 +952,12 @@ final class KeySensor {
     func enable() -> Bool {
         let opts = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true] as CFDictionary
         guard AXIsProcessTrustedWithOptions(opts) else { return false }
+        // 2026-07-31: 新しいmacOSではグローバルキー監視にアクセシビリティと別枠の
+        // 「入力監視」(Input Monitoring)が必要。無許可だとモニタは付くがイベントが届かない
+        if IOHIDCheckAccess(kIOHIDRequestTypeListenEvent) != kIOHIDAccessTypeGranted {
+            IOHIDRequestAccess(kIOHIDRequestTypeListenEvent)   // システム設定へ誘導するプロンプト
+            return false
+        }
         monitor = NSEvent.addGlobalMonitorForEvents(matching: .keyDown) { [weak self] ev in
             guard let self else { return }
             // どのキーか・文字内容は参照しない。Return/Enterの判別と押鍵時刻のみ
@@ -1867,6 +1875,24 @@ final class AppController: NSObject {
         menu.addItem(quit)
         statusItem.menu = menu
 
+        // 前回ONだった入力チャネルを復元（2026-07-31: 再起動でカタカタが消える問題の修正）。
+        // AX系（キーボード/トラックパッド/背景）は許可済みのときだけ静かに復元し、
+        // 未許可なら起動時にプロンプトを出さない（次に手動でONにした時に出る）
+        if UserDefaults.standard.bool(forKey: "clickMode"), overlay.clicks.enable() {
+            clickItem.state = .on
+        }
+        if AXIsProcessTrusted() {
+            if UserDefaults.standard.bool(forKey: "keyboardMode"), overlay.keys.enable() {
+                keyItem.state = .on
+            }
+            if UserDefaults.standard.bool(forKey: "touchMode"), overlay.touch.enable() {
+                touchItem.state = .on
+            }
+            if UserDefaults.standard.bool(forKey: "contextMode"), overlay.sensor.enable() {
+                ctxItem.state = .on
+            }
+        }
+
         overlay.reject.start()   // 右クリック2連打=「違う」（常時・権限不要）
 
         // データ提供キューの送信＋語彙フィード受信（起動時＋5分ごと。同意OFF時は何もしない）
@@ -1877,6 +1903,17 @@ final class AppController: NSObject {
             Uploader.shared.flush()
             DeliveredVocab.shared.fetch()
             UpdateChecker.shared.autoCheck()
+        }
+
+        // セキュア入力の可視化（2026-07-31デバッグの教訓）: パスワード欄等が
+        // Secure Inputを掴んでいる間、キー監視はOSにより全面遮断される。
+        // 無言で死なせず、メニューに停止理由を表示する
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [weak self] _ in
+            guard let self, self.overlay.keys.enabled else { return }
+            let blocked = IsSecureEventInputEnabled()
+            let base = "キーボードモード（実験的）"
+            let want = blocked ? base + " ⚠️セキュア入力により停止中" : base
+            if self.keyItem.title != want { self.keyItem.title = want }
         }
 
         // アップデート通知（自動確認は同意ON時のみ・24hに1回。手動確認は常時可）
@@ -1940,6 +1977,7 @@ final class AppController: NSObject {
             return
         }
         ctxItem.state = overlay.sensor.enabled ? .on : .off
+        UserDefaults.standard.set(overlay.sensor.enabled, forKey: "contextMode")
     }
 
     @objc func toggleKeys() {
@@ -1950,6 +1988,7 @@ final class AppController: NSObject {
             return
         }
         keyItem.state = overlay.keys.enabled ? .on : .off
+        UserDefaults.standard.set(overlay.keys.enabled, forKey: "keyboardMode")
     }
 
     @objc func toggleTouch() {
@@ -1960,6 +1999,7 @@ final class AppController: NSObject {
             return
         }
         touchItem.state = overlay.touch.enabled ? .on : .off
+        UserDefaults.standard.set(overlay.touch.enabled, forKey: "touchMode")
     }
 
     @objc func selectLang(_ sender: NSMenuItem) {
@@ -2043,6 +2083,7 @@ final class AppController: NSObject {
             _ = overlay.clicks.enable()
         }
         clickItem.state = overlay.clicks.enabled ? .on : .off
+        UserDefaults.standard.set(overlay.clicks.enabled, forKey: "clickMode")
     }
 
     /// 研究ログの丁寧なオプトイン: ON時は毎回、記録内容と保存先を明示して同意を取る

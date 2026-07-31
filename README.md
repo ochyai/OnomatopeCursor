@@ -1,3 +1,5 @@
+<p align="center">日本語 | <a href="README.en.md">English</a> | <a href="README.zh.md">中文</a> | <a href="README.ko.md">한국어</a> | <a href="README.fr.md">Français</a></p>
+
 <div align="center">
 
 # 👀 OnomatopeCursor
