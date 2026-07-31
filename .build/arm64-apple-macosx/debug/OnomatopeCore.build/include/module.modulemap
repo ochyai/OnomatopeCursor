@@ -1,0 +1,3 @@
+module OnomatopeCore {
+    header "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/include/OnomatopeCore-Swift.h"
+}

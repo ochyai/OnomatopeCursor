@@ -1,0 +1,29 @@
+name: 不具合報告 / Bug report
+description: 動かない・表示がおかしい・重い等
+title: "[bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: なにが起きましたか
+      placeholder: 手順・期待した挙動・実際の挙動
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: バージョンとmacOS
+      placeholder: 例: v1.25.1 / macOS 15.5 (Apple Silicon)
+    validations:
+      required: true
+  - type: dropdown
+    id: modes
+    attributes:
+      label: ONにしていたモード（複数選択）
+      multiple: true
+      options: ["生成モード", "キーボードモード", "背景モード", "トラックパッドモード", "物理モード", "研究ログ", "データ提供"]
+  - type: textarea
+    id: extra
+    attributes:
+      label: 補足（スクリーンショット・どのアプリの上で等）

@@ -1,0 +1,352 @@
+{
+ "version": 1,
+ "tiers": [
+  {
+   "threshold": 10,
+   "words": [
+    "ゆらゆら",
+    "ふよふよ"
+   ]
+  },
+  {
+   "threshold": 25,
+   "words": [
+    "とろとろ",
+    "ひそひそ"
+   ]
+  },
+  {
+   "threshold": 50,
+   "words": [
+    "カサコソ",
+    "きゅるん"
+   ]
+  }
+ ],
+ "words": {
+  "ゆらゆら": {
+   "family": "idle",
+   "anim": "jiwa",
+   "size": 22,
+   "color": "#cfe3f5",
+   "state": false,
+   "forms": {
+    "ja": {
+     "form": "ゆらゆら",
+     "theta": [
+      0.2,
+      0.1,
+      0.4,
+      1
+     ]
+    },
+    "en": {
+     "form": "swaaay…",
+     "theta": [
+      0.2,
+      0,
+      0.8,
+      0
+     ]
+    },
+    "zh": {
+     "form": "晃悠悠",
+     "theta": [
+      0.3,
+      0.1,
+      0.5,
+      0.6
+     ]
+    },
+    "ko": {
+     "form": "흔들흔들",
+     "theta": [
+      0.3,
+      0.2,
+      0.2,
+      1
+     ]
+    },
+    "fr": {
+     "form": "flottt…",
+     "theta": [
+      0.2,
+      0.1,
+      0.7,
+      0
+     ]
+    }
+   }
+  },
+  "ふよふよ": {
+   "family": "idle",
+   "anim": "iki",
+   "size": 22,
+   "color": "#d8f0e8",
+   "state": false,
+   "forms": {
+    "ja": {
+     "form": "ふよふよ",
+     "theta": [
+      0.15,
+      0.05,
+      0.3,
+      1
+     ]
+    },
+    "en": {
+     "form": "floaty floaty",
+     "theta": [
+      0.2,
+      0.1,
+      0.4,
+      0.9
+     ]
+    },
+    "zh": {
+     "form": "飘飘",
+     "theta": [
+      0.2,
+      0.1,
+      0.4,
+      0.7
+     ]
+    },
+    "ko": {
+     "form": "둥실둥실",
+     "theta": [
+      0.25,
+      0.1,
+      0.3,
+      1
+     ]
+    },
+    "fr": {
+     "form": "flotte flotte",
+     "theta": [
+      0.2,
+      0.1,
+      0.3,
+      0.9
+     ]
+    }
+   }
+  },
+  "とろとろ": {
+   "family": "idle",
+   "anim": "uto",
+   "size": 22,
+   "color": "#f0e0d0",
+   "state": false,
+   "forms": {
+    "ja": {
+     "form": "とろとろ",
+     "theta": [
+      0.35,
+      0.1,
+      0.5,
+      1
+     ]
+    },
+    "en": {
+     "form": "drowsyyy…",
+     "theta": [
+      0.3,
+      0,
+      0.8,
+      0
+     ]
+    },
+    "zh": {
+     "form": "迷迷糊糊",
+     "theta": [
+      0.3,
+      0.1,
+      0.4,
+      0.9
+     ]
+    },
+    "ko": {
+     "form": "노곤노곤",
+     "theta": [
+      0.3,
+      0.1,
+      0.3,
+      1
+     ]
+    },
+    "fr": {
+     "form": "tout mooou…",
+     "theta": [
+      0.25,
+      0,
+      0.8,
+      0
+     ]
+    }
+   }
+  },
+  "ひそひそ": {
+   "family": "idle",
+   "anim": "moji",
+   "size": 22,
+   "color": "#e0d8f0",
+   "state": false,
+   "forms": {
+    "ja": {
+     "form": "ひそひそ",
+     "theta": [
+      0.2,
+      0.15,
+      0.2,
+      1
+     ]
+    },
+    "en": {
+     "form": "psst psst",
+     "theta": [
+      0.2,
+      0.4,
+      0.1,
+      0.9
+     ]
+    },
+    "zh": {
+     "form": "悄悄话",
+     "theta": [
+      0.2,
+      0.2,
+      0.2,
+      0.6
+     ]
+    },
+    "ko": {
+     "form": "소곤소곤",
+     "theta": [
+      0.2,
+      0.2,
+      0.2,
+      1
+     ]
+    },
+    "fr": {
+     "form": "chuchote…",
+     "theta": [
+      0.2,
+      0.2,
+      0.5,
+      0
+     ]
+    }
+   }
+  },
+  "カサコソ": {
+   "family": "idle",
+   "anim": "sowa",
+   "size": 22,
+   "color": "#e5e0d0",
+   "state": false,
+   "forms": {
+    "ja": {
+     "form": "カサコソ",
+     "theta": [
+      0.3,
+      0.3,
+      0.1,
+      0.8
+     ]
+    },
+    "en": {
+     "form": "rustle rustle",
+     "theta": [
+      0.3,
+      0.3,
+      0.2,
+      0.9
+     ]
+    },
+    "zh": {
+     "form": "窸窸窣窣",
+     "theta": [
+      0.3,
+      0.3,
+      0.1,
+      0.9
+     ]
+    },
+    "ko": {
+     "form": "바스락바스락",
+     "theta": [
+      0.3,
+      0.4,
+      0.1,
+      1
+     ]
+    },
+    "fr": {
+     "form": "frr frr…",
+     "theta": [
+      0.3,
+      0.3,
+      0.4,
+      0.8
+     ]
+    }
+   }
+  },
+  "きゅるん": {
+   "family": "idle",
+   "anim": "kuru",
+   "size": 22,
+   "color": "#ffd8ea",
+   "state": false,
+   "forms": {
+    "ja": {
+     "form": "きゅるん",
+     "theta": [
+      0.15,
+      0.4,
+      0.3,
+      0
+     ]
+    },
+    "en": {
+     "form": "sparkle!",
+     "theta": [
+      0.2,
+      0.5,
+      0.2,
+      0
+     ]
+    },
+    "zh": {
+     "form": "咕噜噜",
+     "theta": [
+      0.3,
+      0.2,
+      0.3,
+      0.7
+     ]
+    },
+    "ko": {
+     "form": "뾰로롱",
+     "theta": [
+      0.2,
+      0.4,
+      0.4,
+      0
+     ]
+    },
+    "fr": {
+     "form": "gliing !",
+     "theta": [
+      0.2,
+      0.4,
+      0.6,
+      0
+     ]
+    }
+   }
+  }
+ }
+}

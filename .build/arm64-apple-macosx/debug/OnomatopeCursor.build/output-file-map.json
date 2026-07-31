@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/primary.swiftdeps"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/AmplificationLog.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/DeliveredVocab.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/GroundingLog.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/LatentHUD.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/PairQuiz.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/SummonGame.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Uploader.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Zukan.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/main.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main.dia"
+  }
+}

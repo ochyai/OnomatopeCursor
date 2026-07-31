@@ -1,0 +1,26 @@
+name: リクエスト / Request
+description: ほしい機能・ほしい語・対応してほしいアプリなど、なんでも
+title: "[request] "
+labels: [request]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 種類
+      options: ["新しい語・語彙", "新機能", "対応アプリ・入力デバイス", "言語（多言語対応）", "その他"]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 内容
+      placeholder: |
+        例: スクロールの勢いで「シャーッ」がほしい /
+            ペンタブの筆圧でオノマトペを出したい /
+            ゲーム実況の配信画面に重ねたい
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: どんな場面で使いたいですか（任意)

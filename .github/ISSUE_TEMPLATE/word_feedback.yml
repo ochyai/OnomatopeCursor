@@ -1,0 +1,39 @@
+name: 語のズレ報告 / Word mismatch
+description: この動きにこの語は違う！を教えてください（研究の一番の栄養です）
+title: "[語ズレ] "
+labels: [word-feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        アプリ内では**右クリック2連打**でその場で「チガウチガウ」を記録できます。
+        ここではもう少し詳しく教えてもらえると、語のマッピング改善に直結します。
+  - type: input
+    id: motion
+    attributes:
+      label: どんな動き・操作をしましたか
+      placeholder: 例: トラックパッドでゆっくり円を描いた / Enterを軽く1回押した
+    validations:
+      required: true
+  - type: input
+    id: shown
+    attributes:
+      label: 出た語
+      placeholder: 例: ビューン
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: 期待した語（自由に。無ければ「わからないけど違う」でOK）
+      placeholder: 例: グルグル / かーん
+  - type: dropdown
+    id: mode
+    attributes:
+      label: 生成モードはONでしたか
+      options: ["ON", "OFF", "わからない"]
+  - type: input
+    id: version
+    attributes:
+      label: バージョン（メニュー最上部の表示）
+      placeholder: 例: v1.25.1

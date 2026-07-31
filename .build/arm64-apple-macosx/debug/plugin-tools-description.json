@@ -1,0 +1,1501 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.OnomatopeCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/sources",
+      "importPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/BrushDeform.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/FamilyGen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MorphSynth.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionToTheta.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionTracker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomaFormerCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomatopeMorphology.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/ResearchLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleMap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/Vocabulary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "OnomatopeCore",
+      "moduleOutputPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCore.swiftmodule",
+      "objects" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/include/OnomatopeCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "onomatope_cursor_public"
+      ],
+      "outputFileMapPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/BrushDeform.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/FamilyGen.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MorphSynth.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionToTheta.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionTracker.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomaFormerCore.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomatopeMorphology.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/ResearchLogger.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleMap.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleParams.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/Vocabulary.swift"
+      ],
+      "tempsPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.OnomatopeCursor-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/sources",
+      "importPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/AmplificationLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/DeliveredVocab.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/GroundingLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/LatentHUD.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/PairQuiz.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/SummonGame.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Uploader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Zukan.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "OnomatopeCursor",
+      "moduleOutputPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCursor.swiftmodule",
+      "objects" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan.swift.o",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "OnomatopeCursor_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "onomatope_cursor_public"
+      ],
+      "outputFileMapPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCursor.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/AmplificationLog.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/DeliveredVocab.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/GroundingLog.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/LatentHUD.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/PairQuiz.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/SummonGame.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Uploader.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Zukan.swift",
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/main.swift"
+      ],
+      "tempsPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.onomatope-render-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/sources",
+      "importPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeRender/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "onomatope_render",
+      "moduleOutputPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/onomatope_render.swiftmodule",
+      "objects" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "onomatope_render_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "onomatope_cursor_public"
+      ],
+      "outputFileMapPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/onomatope_render.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeRender/main.swift"
+      ],
+      "tempsPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.onomatope-synth-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/sources",
+      "importPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeSynth/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "onomatope_synth",
+      "moduleOutputPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/onomatope_synth.swiftmodule",
+      "objects" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "onomatope_synth_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "onomatope_cursor_public"
+      ],
+      "outputFileMapPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/onomatope_synth.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeSynth/main.swift"
+      ],
+      "tempsPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.onomatope-tests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/sources",
+      "importPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeTests/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/OnomatopeCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "onomatope_tests",
+      "moduleOutputPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/onomatope_tests.swiftmodule",
+      "objects" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "onomatope_tests_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "onomatope_cursor_public"
+      ],
+      "outputFileMapPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules/onomatope_tests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeTests/main.swift"
+      ],
+      "tempsPath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "OnomatopeCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "OnomatopeCore",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-c",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/BrushDeform.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/FamilyGen.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MorphSynth.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionToTheta.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionTracker.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomaFormerCore.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomatopeMorphology.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/ResearchLogger.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleMap.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleParams.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/Vocabulary.swift",
+      "-I",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/include/OnomatopeCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "OnomatopeCursor" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "OnomatopeCursor",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-c",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/AmplificationLog.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/DeliveredVocab.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/GroundingLog.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/LatentHUD.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/PairQuiz.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/SummonGame.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Uploader.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Zukan.swift",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/main.swift",
+      "-I",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "OnomatopeCursor_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "onomatope_render" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "onomatope_render",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-c",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeRender/main.swift",
+      "-I",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "onomatope_render_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "onomatope_synth" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "onomatope_synth",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-c",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeSynth/main.swift",
+      "-I",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "onomatope_synth_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "onomatope_tests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "onomatope_tests",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-c",
+      "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeTests/main.swift",
+      "-I",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "onomatope_tests_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "onomatope_cursor_public",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "OnomatopeCore" : [
+
+    ],
+    "OnomatopeCursor" : [
+      "OnomatopeCore"
+    ],
+    "onomatope_render" : [
+      "OnomatopeCore"
+    ],
+    "onomatope_synth" : [
+      "OnomatopeCore"
+    ],
+    "onomatope_tests" : [
+      "OnomatopeCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/BrushDeform.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/FamilyGen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MorphSynth.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionToTheta.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionTracker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomaFormerCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomatopeMorphology.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/ResearchLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleMap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/Vocabulary.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/sources"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor-entitlement.plist"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/AmplificationLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/DeliveredVocab.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/GroundingLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/LatentHUD.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/PairQuiz.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/SummonGame.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Uploader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/Zukan.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCursor/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/sources"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/AmplificationLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/DeliveredVocab.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/GroundingLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/LatentHUD.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/PairQuiz.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/SummonGame.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Uploader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/Zukan.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCursor.product/Objects.LinkFileList"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-render-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-render-entitlement.plist"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-render.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-render.product/Objects.LinkFileList"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-synth-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-synth-entitlement.plist"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-synth.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-synth.product/Objects.LinkFileList"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-tests-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-tests-entitlement.plist"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-tests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope-tests.product/Objects.LinkFileList"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeRender/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_render.build/sources"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeSynth/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/sources"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeTests/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_tests.build/sources"
+    },
+    "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

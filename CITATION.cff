@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or build on the research, please cite the paper below."
+title: "OnomatopeCursor"
+authors:
+  - family-names: Ochiai
+    given-names: Yoichi
+  - family-names: Okamura
+    given-names: Miki
+license: MIT
+repository-code: "https://github.com/ochyai/OnomatopeCursor"
+preferred-citation:
+  type: article
+  title: "Onomatopoeia Cursor: Verbal Mirroring of Mouse Movement with Comic-Style Lettering"
+  authors:
+    - family-names: Ochiai
+      given-names: Yoichi
+    - family-names: Okamura
+      given-names: Miki
+  year: 2026
+  # TODO: arXiv公開後にIDとDOIを記入（例: arXiv:2607.XXXXX / 10.48550/arXiv.2607.XXXXX）

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/primary.swiftdeps"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeSynth/main.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/onomatope_synth.build/main.dia"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/primary.swiftdeps"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/BrushDeform.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/BrushDeform.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/FamilyGen.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/FamilyGen.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MorphSynth.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MorphSynth.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionToTheta.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionToTheta.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/MotionTracker.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/MotionTracker.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomaFormerCore.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomaFormerCore.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/OnomatopeMorphology.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/OnomatopeMorphology.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/ResearchLogger.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/ResearchLogger.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleMap.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleMap.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/StyleParams.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/StyleParams.dia"
+  },
+  "/Users/yoichiochiai/onomatope-cursor-public/Sources/OnomatopeCore/Vocabulary.swift": {
+    "dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.d",
+    "object": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swift.o",
+    "swiftmodule": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary~partial.swiftmodule",
+    "swift-dependencies": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.swiftdeps",
+    "diagnostics": "/Users/yoichiochiai/onomatope-cursor-public/.build/arm64-apple-macosx/debug/OnomatopeCore.build/Vocabulary.dia"
+  }
+}
