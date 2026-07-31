@@ -36,7 +36,7 @@
 
 追加の設定・権限は一切不要です（キーボード等の拡張チャネルを使う場合のみ後述の許可が要ります）。
 
-> 🪟 **Windows版（β）もあります**: [OnomatopeCursor-win-0.1.0.zip](https://github.com/ochyai/OnomatopeCursor/releases/tag/windows-v0.1.0) — カタカタ・ッターン！対応、権限ダイアログ不要、通信なし。「WindowsによってPCが保護されました」が出たら「詳細情報→実行」（未署名βのため）。
+> 🪟 **Windows版（β）もあります**: [OnomatopeCursor-win-0.1.1.zip](https://github.com/ochyai/OnomatopeCursor/releases/tag/windows-v0.1.1) — カタカタ・ッターン！対応、権限ダイアログ不要、通信なし。「WindowsによってPCが保護されました」が出たら「詳細情報→実行」（未署名βのため）。
 
 ## 🖱 動きが、ことばになる — 15の運動語
 
