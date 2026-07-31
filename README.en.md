@@ -36,6 +36,8 @@ The vocabulary isn't something you choose — it's **a mirror of your own body**
 
 No setup, no permissions required. (Only the optional extended channels, described below, ask for anything.)
 
+> 🪟 **Windows version (beta)**: [OnomatopeCursor-win-0.1.0.zip](https://github.com/ochyai/OnomatopeCursor/releases/tag/windows-v0.1.0) — with katakata typing words, no permission dialogs, zero network. If SmartScreen appears, click "More info" → "Run anyway" (unsigned beta).
+
 ## 🖱 Movement becomes language — 15 motion words
 
 At 60 Hz it reads your cursor's speed, jerk, direction changes, rotation, and straightness, then sorts the quality of the motion into 15 words.

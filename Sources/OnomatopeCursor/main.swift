@@ -1014,8 +1014,13 @@ final class TouchSensor {
     }
 
     func enable() -> Bool {
+        #if !APPSTORE
+        // スクロールのグローバル監視自体は無権限で動くが、magnify/rotateの
+        // CGEventTapがAccessibilityを要するためフル版ではまとめてゲートする。
+        // App Store版はAccessibilityを要求できないのでスクロールのみ・ゲートなし
         let opts = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true] as CFDictionary
         guard AXIsProcessTrustedWithOptions(opts) else { return false }
+        #endif
 
         if let m = NSEvent.addGlobalMonitorForEvents(matching: .scrollWheel, handler: { [weak self] ev in
             guard let self else { return }
@@ -1789,10 +1794,14 @@ final class AppController: NSObject {
         let chMenu = NSMenu()
         ctxItem = NSMenuItem(title: "背景モード（実験的）", action: #selector(toggleContext), keyEquivalent: "b")
         ctxItem.target = self
-        chMenu.addItem(ctxItem)
         keyItem = NSMenuItem(title: "キーボードモード（実験的）", action: #selector(toggleKeys), keyEquivalent: "k")
         keyItem.target = self
+        #if !APPSTORE
+        // App Store版はサンドボックス/審査ポリシー(Accessibility不可)のため
+        // 背景モード・キーボードモードを出さない（docs/APPSTORE.md）
+        chMenu.addItem(ctxItem)
         chMenu.addItem(keyItem)
+        #endif
         touchItem = NSMenuItem(title: "トラックパッドモード（実験的）", action: #selector(toggleTouch), keyEquivalent: "t")
         touchItem.target = self
         chMenu.addItem(touchItem)
@@ -1867,9 +1876,11 @@ final class AppController: NSObject {
         let surveyItem = NSMenuItem(title: "アンケートに答える（1分・+5pt）…", action: #selector(openSurvey), keyEquivalent: "")
         surveyItem.target = self
         menu.addItem(surveyItem)
+        #if !APPSTORE   // Store版の更新はApp Storeが担う。appcastは使わない
         let updCheck = NSMenuItem(title: "アップデートを確認…", action: #selector(checkUpdates), keyEquivalent: "")
         updCheck.target = self
         menu.addItem(updCheck)
+        #endif
         let quit = NSMenuItem(title: "終了", action: #selector(quitApp), keyEquivalent: "q")
         quit.target = self
         menu.addItem(quit)
@@ -1881,6 +1892,11 @@ final class AppController: NSObject {
         if UserDefaults.standard.bool(forKey: "clickMode"), overlay.clicks.enable() {
             clickItem.state = .on
         }
+        #if APPSTORE
+        if UserDefaults.standard.bool(forKey: "touchMode"), overlay.touch.enable() {
+            touchItem.state = .on
+        }
+        #else
         if AXIsProcessTrusted() {
             if UserDefaults.standard.bool(forKey: "keyboardMode"), overlay.keys.enable() {
                 keyItem.state = .on
@@ -1892,6 +1908,7 @@ final class AppController: NSObject {
                 ctxItem.state = .on
             }
         }
+        #endif
 
         overlay.reject.start()   // 右クリック2連打=「違う」（常時・権限不要）
 
@@ -1902,7 +1919,9 @@ final class AppController: NSObject {
         Timer.scheduledTimer(withTimeInterval: 300, repeats: true) { _ in
             Uploader.shared.flush()
             DeliveredVocab.shared.fetch()
+            #if !APPSTORE
             UpdateChecker.shared.autoCheck()
+            #endif
         }
 
         // セキュア入力の可視化（2026-07-31デバッグの教訓）: パスワード欄等が
@@ -1916,6 +1935,7 @@ final class AppController: NSObject {
             if self.keyItem.title != want { self.keyItem.title = want }
         }
 
+        #if !APPSTORE
         // アップデート通知（自動確認は同意ON時のみ・24hに1回。手動確認は常時可）
         UpdateChecker.shared.onAvailable = { [weak self] info in
             guard let self else { return }
@@ -1923,6 +1943,7 @@ final class AppController: NSObject {
             self.updateItem.isHidden = false
         }
         UpdateChecker.shared.autoCheck()
+        #endif
 
         // 初回起動: 研究プロジェクトであることの明示（1回だけ・短く）
         if !UserDefaults.standard.bool(forKey: "shownWelcome") {
@@ -2255,7 +2276,7 @@ final class AppController: NSObject {
         a.addButton(withTitle: "OK")
         a.addButton(withTitle: "GitHubを開く")
         if a.runModal() == .alertSecondButtonReturn {
-            NSWorkspace.shared.open(URL(string: "https://github.com/ochyai/onomatope-cursor")!)
+            NSWorkspace.shared.open(URL(string: "https://github.com/ochyai/OnomatopeCursor")!)
         }
     }
 

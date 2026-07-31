@@ -1,0 +1,19 @@
+name: windows-port
+on:
+  push:
+    paths: ['windows/**', 'i18n/**', '.github/workflows/windows.yml']
+  pull_request:
+    paths: ['windows/**']
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build
+        run: dotnet build windows/OnomatopeCursor.sln -c Release
+      - name: Core tests
+        run: dotnet run --project windows/Tests -c Release
